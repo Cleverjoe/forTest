@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		207D7DD75D03E18ABF769FF0 /* Pods_forTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D616AE717E08AA143E21F9B9 /* Pods_forTest.framework */; };
 		D8E27F8226D38555008F5453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E27F8126D38555008F5453 /* AppDelegate.swift */; };
-		D8E27F8426D38555008F5453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E27F8326D38555008F5453 /* SceneDelegate.swift */; };
 		D8E27F8626D38555008F5453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E27F8526D38555008F5453 /* ViewController.swift */; };
 		D8E27F8926D38555008F5453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E27F8726D38555008F5453 /* Main.storyboard */; };
 		D8E27F8B26D38556008F5453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E27F8A26D38556008F5453 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 		D616AE717E08AA143E21F9B9 /* Pods_forTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E27F7E26D38555008F5453 /* forTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E27F8126D38555008F5453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8E27F8326D38555008F5453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8E27F8526D38555008F5453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8E27F8826D38555008F5453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8E27F8A26D38556008F5453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				DEEB540E6DE517B2BF5197B2 /* Pods-forTest.debug.xcconfig */,
 				B1082EFF284220311C62DCEA /* Pods-forTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				D8E27F8126D38555008F5453 /* AppDelegate.swift */,
-				D8E27F8326D38555008F5453 /* SceneDelegate.swift */,
 				D8E27F8526D38555008F5453 /* ViewController.swift */,
 				D8E27F8726D38555008F5453 /* Main.storyboard */,
 				D8E27F8A26D38556008F5453 /* Assets.xcassets */,
@@ -329,7 +325,6 @@
 			files = (
 				D8E27F8626D38555008F5453 /* ViewController.swift in Sources */,
 				D8E27F8226D38555008F5453 /* AppDelegate.swift in Sources */,
-				D8E27F8426D38555008F5453 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +507,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = joe.forTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -531,6 +527,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = joe.forTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
